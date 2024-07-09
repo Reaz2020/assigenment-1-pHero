@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    width: 1440px;
+
+   
+    font-family: "Azeret Mono", monospace;
+}
+
+/* common css styles for top-section and header section button  */ 
+
+.btn{
+    padding: 15px;
+    border-radius: 5px;
+   
+   
+}
+
+
+/* top section */
+
+/* .bt1{
+    font-size: 20px;
+    font-weight: 600px;
+
+
+} */
+.top-section{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.heading-top-section{
+    margin-left:5%;
+
+}
+.button-top-section{
+    margin-top:2%;
+    margin-right:5%;
+    width: 220px;
+    height: 58px;
+   
+    
+}
+
+
+
+/* header section */
+.header-section{
+    background-color: aliceblue;
+    width: 1440px;
+    height: 652px;
+    background-image: url("/images/Hero-bg.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.btn2{
+    background-color: black;
+    color: white;
+}
+
+/* section-2 */
+.why-web-development{
+    background-color: rgb(160, 233, 216);
+    border-style: outset;
+    height: 1393px;
+    width: 1140px;
+    margin:0 auto;
+
+}
+/* section-3 */
+.inspiration{
+    background-color: rgb(160, 233, 216);
+    width: 1140px;
+    margin:0 auto;
+    border-style: outset;
+    height: 775px;
+
+}
+/* section-4 */
+.target{
+    background-color: rgb(160, 233, 216);
+    width: 1140px;
+    height: 1437px;
+    margin:0 auto;
+    border-style: outset;
+}
+/* section-5 */
+.support{
+    background-color: rgb(160, 233, 216);
+    width: 1140px;
+    height: 313px;
+    margin:0 auto;
+    border-style: outset;
+}
+/* section-6  footer */
+.footer{
+
+    background-color: rgb(160, 233, 216);
+    height: 100px;
+    margin:0 auto;
+    border-style: outset;
+    
+}
