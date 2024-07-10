@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     max-width: 1440px;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Azeret Mono";
 }
 
 /* common css styles for top-section and header section button  */ 
 
 .btn{
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 10px;
    
    
 }
@@ -22,6 +22,17 @@ body{
 
 
 } */
+
+.heading{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.section-para{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
 .top-section{
     text-align: center;
     display: flex;
@@ -54,19 +65,24 @@ body{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    margin-bottom: 30px;
    
 }
 
 .btn2{
     background-color: black;
     color: white;
+    margin-top: 30px;
+    padding: 10px;
 }
 
 /* section-2 */
 .why-web-development{
-    background-color: rgb(160, 233, 216);
-    border-style: outset;
-    height: 1395px;
+    
+    border-radius: 16px; 
+    background: rgba(13, 19, 33, 0.02);
+    
+   
     width: 1140px;
     margin:0 auto;
 
@@ -78,31 +94,71 @@ body{
 }
 
 .why-web-development-sec-header{
-    height: 115px;
-    width: 852px;
-    border-style: outset;
-    background-color: antiquewhite;
-    margin:0 auto;
    
+    width: 852px;
+   
+   
+    margin:0 auto;
+    padding: 48px;
+   
+}
+
+.why-web-development-sec-main-content1, 
+.why-web-development-sec-main-content2,
+.why-web-development-sec-main-content3 {
+
+
+  
+   border-radius: 10px;
+   
+
+
+display: flex;
+justify-content: space-between;
+text-align: left;
+padding: 5%;
+margin-bottom: 5px;
+
+
+}
+
+.sub-section-header{
+   
+    width: 477px;
+    
+    /* need to set auto */
+   
+
+}
+.sub-section-heading , .sub-section-paragraph{
+    opacity: 0.7;
+
+}
+.sub-section-btn{
+
+    padding: 15px;
+    background-color:white;
+
 }
 
 
 
 /* common style sec2 */
  .subsection{
-    width: 850px;
-    height: 240px;
-    border-style: outset;
-    border-color: black;
+   
+   
+   
     margin:0 auto;
 }
 /* section-3 my inspiration */
 .inspiration{
-    background-color: rgb(160, 233, 216);
+   
     width: 1140px;
     margin:0 auto;
-    border-style: outset;
-    height: 775px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+  
     
 
     display: flex;
@@ -117,12 +173,32 @@ body{
 }
 
 .my-inspiration-heading-sec{
-    background-color: rgb(160, 233, 216);
-    border-style: outset;
+   
+ 
     width: 852px;
-    height: 113px;
-    margin:0 auto;
+   
+    display: flex;
+    text-align: center;
 
+    flex-direction: column;
+    justify-content: center;
+   
+    margin: 0 auto;
+
+
+}
+
+.my-inspiration-heading{
+    margin-bottom: 24px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+
+}
+.my-inspiration-paragraph{
+   
+    margin: 0 auto;
+    padding-bottom: 48px;
+    opacity: 0.7;
 }
 .my-inspiration-vdo{
     border-radius: 10px;
@@ -137,22 +213,68 @@ body{
 }
 /* section-5 */
 .support{
+    background-image: url("/images/handshake.jpg");
+    background-position: center;
     background-color: rgb(160, 233, 216);
     width: 1140px;
-    height: 313px;
+  
     margin:0 auto;
-    border-style: outset;
+   
+    display: flex;
+    text-align: center;
+
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4%;
+    border-radius: 16px;
+}
+
+.support-header{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.support-paragraph{
+    opacity: 0.7;
+    margin-bottom: 40px;
+}
+
+.search-bar{
+    height: 57px;
+    width: 568px;
+    border-radius: 10px;
+}
+
+.support-button{
+
+    width: 120px;
+    height: 58px;
+    border-radius: 10px;
+    font-family: "Azeret Mono", monospace;
+    font-weight: semi-bold;
+    font-size: 20px;
+    background-color: white;
+    margin-left: 20px;margin-top: 3px;
+
+}
+.support-content-sec{
+    display: flex;
+    justify-content:center;
+    padding-bottom: 64px;
 }
 /* section-6  footer */
 .footer{
 
     background: rgba(13, 19, 33, 0.03);
-    height: 100px;
+    width: 1440px;
     margin:0 auto;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 16px;
     
 }
 
@@ -184,9 +306,7 @@ body{
 
 }
 
-.footer-paragraph{
 
-}
 
 .footer-icons-sec{
   
