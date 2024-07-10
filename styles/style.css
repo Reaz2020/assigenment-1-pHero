@@ -96,7 +96,7 @@ background: rgb(13, 19, 33);
     background-color: aliceblue;
     width: 1440px;
     height: 652px;
-    background-image: url("/images/Hero-bg.png");
+    background-image: url("../images/Hero-bg.png");
 
     display: flex;
     flex-direction: column;
