@@ -11,7 +11,8 @@ body{
 position: absolute;
 width: 228px;
 height: 58px;
-left: 1046px;
+
+left: 1146px;
 top: 18px;
 
 display: flex;
@@ -24,6 +25,16 @@ box-sizing: border-box;
 border: 1px solid rgb(13, 19, 33);
 border-radius: 8px; 
 opacity: 0.8; 
+background-color: aliceblue;
+
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 500;
+text-align: center;
+
+
+
 
    
    
@@ -54,6 +65,8 @@ background: rgb(13, 19, 33);
 
 } 
 
+
+
 .heading{
     font-size: 32px;
     font-weight: 800;
@@ -74,14 +87,7 @@ background: rgb(13, 19, 33);
     margin-left:5%;
 
 }
-.button-top-section{
-    margin-top:2%;
-    margin-right:5%;
-    width: 220px;
-    height: 58px;
-   
-    
-}
+
 
 
 
@@ -281,6 +287,15 @@ flex: none;
 order: 1;
 flex-grow: 0;
 margin: 32px 0px; 
+
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+
 
 } 
 
@@ -586,3 +601,41 @@ height: 36px;
 
 
 }
+
+/* extra btn design */
+.btn1:hover, .btn2:hover{
+    color: blueviolet;
+    border-width: 4px;
+   
+    
+    }
+
+.btn1:hover{
+        color: blueviolet;
+      
+        border-width: 4px;
+        cursor: progress;
+        }
+
+ .support-button:hover {
+        border-width: 4px;
+        border-style: groove;
+         border-color: blueviolet;
+
+        }
+
+.sub-section-btn:hover{
+        border-radius: 5px;
+        border-width: 4px;
+        border-style: groove;
+        border-color: blueviolet;
+
+        }
+
+.learn-more-btn:hover{
+
+        color: blueviolet;
+
+
+    }
+  
